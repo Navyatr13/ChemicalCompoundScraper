@@ -1,26 +1,23 @@
 import sqlite3
 import pandas as pd
 
-# Path to the database file
-db_path = "compound_data.db"
+db_path = "data/compound_data.db"
 
 # Connect to the database
-#try:
-connection = sqlite3.connect(db_path)
-# Retrieve all tables in the database
-query = "SELECT name FROM sqlite_master WHERE type='table';"
-tables = pd.read_sql(query, connection)
-print(tables)
-# Read the contents of all tables
-data = {}
-for table in tables['name']:
-    data[table] = pd.read_sql(f"SELECT * FROM {table};", connection)
+conn = sqlite3.connect(db_path)
 
-connection.close()
-for table_name, table_data in data.items():
-    print(f"Contents of table '{table_name}':")
-    print(table_data.head())  # Display first few rows
-    print("\n")
-#except Exception as e:
-#    connection.close()
-#    str(e)
+# Retrieve table names
+tables_query = "SELECT name FROM sqlite_master WHERE type='table';"
+tables = pd.read_sql(tables_query, conn)
+print("Tables in the database:")
+print(tables)
+
+# Retrieve content from UnifiedCompounds
+try:
+    df = pd.read_sql("SELECT * FROM UnifiedCompounds;", conn)
+    print("Contents of UnifiedCompounds:")
+    print(df)
+except Exception as e:
+    print(f"Error querying UnifiedCompounds: {e}")
+
+conn.close()
