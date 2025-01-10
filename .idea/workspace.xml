@@ -5,30 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e74a3906-6498-4284-94c4-caffd981f3d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compound_data.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/read_contents.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nlp_extraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scrappers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scrappers/acm_scrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scrappers/chembl_scrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scrappers/pubmed_scrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semantic_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_database_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_nlp_extraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_scrappers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_scrappers/test_acm_scrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_scrappers/test_chembl_scrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_semantic_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/read_contents.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/read_contents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scrappers/acm_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scrappers/acm_scrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scrappers/chembl_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scrappers/chembl_scrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scrappers/pubmed_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scrappers/pubmed_scrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/semantic_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/semantic_search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
